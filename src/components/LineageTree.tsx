@@ -85,7 +85,7 @@ export const LineageTree: React.FC<LineageTreeProps> = ({ lineage }) => {
           }`}></div>
 
           {/* Generation 4 - Two branches */}
-          <div className="flex space-x-5 space-x-reverse">
+          <div className="flex space-x space-x-reverse">
             <div
               className={`tree-node bg-gradient-to-r from-emerald-600 to-emerald-700 text-white border-emerald-800 transform transition-all duration-700 delay-700 ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
@@ -112,7 +112,7 @@ export const LineageTree: React.FC<LineageTreeProps> = ({ lineage }) => {
           </div>
 
           {/* Generation 5 - Children of Lam Sang */}
-          <div className="flex space-x-5 space-x-reverse -ml-40">
+          <div className="flex space-x space-x-reverse -ml-40">
             <div
               className={`tree-node bg-gradient-to-r from-emerald-600 to-emerald-700 text-white border-emerald-800 transform transition-all duration-700 delay-1000 ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
