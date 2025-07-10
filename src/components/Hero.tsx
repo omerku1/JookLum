@@ -19,14 +19,6 @@ export const Hero: React.FC = () => {
       <div className={`container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 transition-all duration-1000 ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}>
-        {/* Praying Mantis Logo */}
-        <div className="mb-8">
-          <img 
-            src="https://images.pexels.com/photos/your-mantis-image-url" 
-            alt="Praying Mantis Logo" 
-            className="w-24 h-24 md:w-32 md:h-32 mx-auto object-contain filter drop-shadow-lg"
-          />
-        </div>
         
         <h1 className="text-5xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-800 to-emerald-600 tracking-tight mb-4 drop-shadow-lg">
           גמל שלמה דרומי
