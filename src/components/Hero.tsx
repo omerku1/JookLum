@@ -19,9 +19,9 @@ export const Hero: React.FC = () => {
       <div className={`container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 transition-all duration-1000 ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}>
-        
+
         <h1 className="text-5xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-800 to-emerald-600 tracking-tight mb-4 drop-shadow-lg">
-          גמל שלמה דרומי
+          קונג פו - גמל שלמה דרומי
         </h1>
         <h2 className="text-2xl md:text-4xl font-bold text-red-800 mb-6 drop-shadow-md">
           Jook Lum Gee Tong Long Pai
